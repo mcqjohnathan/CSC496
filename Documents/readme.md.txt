@@ -13,4 +13,4 @@ ASROCK Z170 Gaming-ITX/ac
 
   I think the data shows that my computer can run these games at a good setting with optimal framerate.Troy used the most 
   CPU out of all the games. But also had the highest framerate. On the gears5 MSI wasnt picking up the frametime for some reason. 
-  Putting troy on medium didnt really change the data much which i find a little weird.
+  Putting troy on medium made the framerate go up by double. And the frametimes avg go up a bit.
