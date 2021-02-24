@@ -1,0 +1,10 @@
+set title "Civ Framerate"
+set xlabel "frame"
+set ylabel "framerate"
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10'
+set output 'Civ6FR.png' 
+plot "Col1" using 1 title 'Civ6Bench1' with lines, \
+     "Col2" using 1 title 'Highperformance' with lines, \
+     "Co3" using 1 title 'PowerSave' with lines, \
+     "Col4" using 1 title 'Res1024*768' with lines
