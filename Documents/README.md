@@ -24,6 +24,10 @@ ASROCK Z170 Gaming-ITX/ac
  beating powersave by just a little bit better performance. Putting gears on 1325*720 resolution upped the
  frames by 20 and overall the game performed better in comparrsion to the normal gears 5 benchmark.
  Making it the better benchmark out of them all.
+	Troy on Medium blew all the other bechmarks out of the water doubaling and even tripling there performance.
+ Changing the resolution to 1152*720 boosted the overall performance by 30% id say. While between powersave 
+ and high performance stayed around the same performance in this game with high performance just barly above 
+ powersave.
 
  HW 2/17-2/24
         I used codes "awk -F',' '{print $10}' GearsBenchMSI| awk 'NR!=1 {print}'>Col1" to seperate the column i needed
@@ -43,6 +47,12 @@ ASROCK Z170 Gaming-ITX/ac
  The only real difference besides the file names is the gears one which is the first one i did that i
  combined all the columns with (paste -d ',,,' Col1 Col2 Col3 Col4)>AllC. I skipped this step for the other two games.
  Honestly you could skip the col step also i think. All script files are in the game files. i launched
- the script using load "script" command.
-
+ the script using load "script" command. All the graphs are in the game files.
+	The graphs are intresting to see and look at the data. Some of the games the Benchmark finished quicker
+ than other ones because they could do the turn order quicker when everything was set to lower resoultion.
+ Or when it was on low power mode it took super long to go through all the turn order for the AI. 
+ Seeing how low performance effected the framerate for all the games some more than others was intresting. 
+ I feel like some games it was more sever on with others there was still a difference just not as big.
+ I believe if youd have to order them they would all would be in the same order tho from greatest performance
+ to the worst. 
 
