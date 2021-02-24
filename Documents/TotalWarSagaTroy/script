@@ -1,0 +1,11 @@
+set title "Troy Framerate"
+set xlabel "Each frame"
+set ylabel "framerate"
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10'
+set output 'Troy.png'
+plot "Col1" using 1 title '1152*720HighUltra' with lines, \
+     "Col2" using 1 title 'HighPerformace1080' with lines, \
+     "Col3" using 1 title 'MediumBench' with lines, \
+     "Col4" using 1 title 'Powersave1080' with lines, \
+     "Col5" using 1 title 'UltraBench' with lines
