@@ -1,8 +1,8 @@
 set datafile separator ','
 set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10'
-set output 'Gears51.png' 
-plot "AllC" using 1 title 'Removed' with lines, \
-     "AllC" using 2 title 'Added' with lines, \
+set output 'Gears55.png' 
+plot "AllC" using 1 title 'Gears5BenchMSI' with lines, \
+     "AllC" using 2 title 'HighPerformance' with lines, \
      "AllC" using 3 title 'PowerSave' with lines, \
      "AllC" using 4 title 'Res1325*720' with lines
 set title "Gears Framerate"
