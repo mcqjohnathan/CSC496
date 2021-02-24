@@ -1,0 +1,7 @@
+set datafile separator ','
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10'
+set output 'gears.png'
+plot 'AllC' with lines
+set title "Gears Framerate"
+set xlabel "Each frame"
+set ylabel "framerate"
