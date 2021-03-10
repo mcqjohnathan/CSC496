@@ -1,0 +1,5 @@
+Intel Core i7-6700K CPU
+Cinebench R23 Multi core Score: 4820
+Cinebench R23 Single core Score: 971
+Number of Cores in This Machine: 4 Cores, 8 Threads @ 4.01 GHz
+Cinebench R23 Estimated Single Core: 1205.000000
