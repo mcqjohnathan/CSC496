@@ -245,7 +245,7 @@ for ($j = 0; $j -lt 8; $j++) {
     
     (Get-Content $iniFile).Replace($find,$replace) |
     Set-Content $iniFile
-    Write-Output ($counter)
+    
     
 }
 
@@ -260,7 +260,7 @@ $add3 = "C:\Users\johna\CSC496\Documents\AutoGraph\test1.txt"
         (Get-Content $iniFile).Replace($find,$replace) |
     Set-Content $iniFile
     
-
+    Remove-Item -Path "C:\Users\johna\CSC496\Documents\AutoGraph\temp.txt" -Force
 
 #New-Item C:\Users\johna\CSC496\Documents\AutoGraph\test13.txt
 #Set-Content C:\Users\johna\CSC496\Documents\AutoGraph\test12.txt '0 ' 

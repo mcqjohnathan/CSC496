@@ -1,0 +1,73 @@
+set title "Borderlands3 Sapphire"
+set terminal dumb
+set xlabel "Each Catigory"
+set ylabel "framerate"
+set terminal pngcairo size 800,600 enhanced font 'Segoe UI,10'
+set output 'Borderlands3Sapphire.png'
+plot "test14.txt" using 2:xtic(1) title "4K Stock" with lines, \
+     "test14.txt" using 3:xtic(1) title "1440 Stock" with lines, \
+     "test14.txt" using 4:xtic(1) title "1080 Stock" with lines
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
